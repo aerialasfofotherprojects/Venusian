@@ -1,0 +1,12 @@
+name: "venusian"
+displayName: "Venusian"
+author: aerialasf
+description: 
+    '''
+    Another planet mod.
+    Adding Venus to the solar system.
+    
+    This is another project for no reason and I am not gonna develop alot on it as move my focus to Mindustrialist.
+    '''
+version: "69.9.969"
+minGameVersion: "146"
