@@ -9,3 +9,5 @@ const embercore = new extend(CoreBlock, 'core-ember', {
 const thermodrill = new extend(ImpactDrill, 'thermo-drill', {
     //TODO add logic and properties
 });
+
+module.exports = { embercore, thermodrill }

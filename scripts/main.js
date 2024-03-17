@@ -1,3 +1,4 @@
-require('vnblocks.js');
-require('vnunits.js');
-require('vnplanets.js');
+require('blocks');
+require('units');
+require('planets');
+require('items');
