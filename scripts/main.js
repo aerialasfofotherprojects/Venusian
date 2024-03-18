@@ -7,4 +7,5 @@ Events.on(ClientLoadEvent, e => {
     const dialog = new BaseDialog("This mod is in W.I.P. Do you wish to continue?");
     dialog.cont.button("Yes", () => dialog.hide());
     dialog.cont.button("No", () => Core.app.exit());
+    dialog.show();
 });
