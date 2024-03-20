@@ -1,0 +1,123 @@
+//this section is commented out since im using bundle
+//localizedName: "Venus"
+//this section is commented out since im using bundle
+
+//planet mesh, [] = MultiMesh, {} = single mesh
+mesh: {
+    //mesh type
+    type: HexMesh
+    //divisions, how much hexagons used for the mesh
+    divisions: 5
+}
+//cloud mesh, [] = MultiMesh, {} = single mesh
+cloudMesh: [
+    {
+        //sky mesh type
+        type: HexSkyMesh
+        //seed used to make variations, diff seed = diff variant
+        seed: 2
+        //cloud speed
+        speed: 0.15
+        //cloud radius
+        radius: 0.14
+        //how much hexagons the cloud is made of
+        divisions: 5
+        //color
+        color: eba768
+        //idk but octaves
+        octaves: 2
+        //idk too
+        persistence: 0.42
+        //idk but its called scl
+        scl: 1
+        //thresh um
+        thresh: 0.43
+    }
+    {
+        //sky mesh type
+        type: HexSkyMesh
+        //seed used to make variations, diff seed = diff variant
+        seed: 3
+        //cloud speed
+        speed: 0.6
+        //cloud radius
+        radius: 0.15
+        //how much hexagons the cloud is made of
+        divisions: 5
+        //color
+        color: eea293
+        //idk but octaves
+        octaves: 2
+        //idk too
+        persistence: 0.42
+        //idk but its called scl
+        scl: 1.2
+        //thresh um
+        thresh: 0.45
+    }
+]
+//planet generator, AsteroidGenerator properties are editable by using a object
+//also hjson is limited to AsteroidGenerator and you cant change the generator
+generator: AsteroidGenerator
+//tells if you can go to the planet anytime
+alwaysUnlocked: true
+//i think "land cloud color"
+landCloudColor: ed6542
+//atmosphere color
+atmosphereColor: f07218
+//default env,
+// https://github.com/Anuken/Mindustry/core
+// /src/mindustry/world/meta/Env.java
+defaultEnv: 17
+//starting sector, you can use any sector if its a custom map but remember to use this number when adding the custom map
+startSector: 0
+//atmosphere offset
+atmosphereRadIn: 0.73
+atmosphereRadOut: 1
+//is planet tidal locked or not
+tidalLock: false
+//orbit time
+orbitTime: 5400
+//rotation time on its axis
+rotationTime: 5832
+//how far planet is from the parent
+orbitSpacing: 3
+//total radius of itself and its satellites
+totalRadius: 2.4
+//light offset
+lightSrcTo: 0.5
+lightDstFrom: 0.2
+//if game saves return to normal when you lose
+clearSectorOnLose: true
+//allow launch to numbered sectors
+allowLaunchToNumbered: false
+//idk
+allowLighting: false //idk what this does
+//planet's default core, example: serpulo having core-shard
+defaultCore: core-ember
+//planet icon's color
+iconColor: ff6347
+//available items when on planet, use hiddenItems if you wanna hide items but the rest will be available
+itemWhitelist: [
+    tungsten, silicon
+]
+//self-explanatory
+enemyBuildSpeedMultiplier: 0.13
+//default attributes of the planet
+defaultAttributes: {
+    heat: 0.8
+}
+//unlocked on landing on planet
+unlockedOnLand: [
+    core-ember
+]
+//game rules, https://github.com/Anuken/Mindustry/core/src/mindustry/game/Rules.java
+ruleSetter: {
+    waveTeam: crux
+    placeRangeCheck: false
+    showSpawns: true
+    fog: true
+    staticFog: true
+    lighting: false
+    coreDestroyClear: true
+}

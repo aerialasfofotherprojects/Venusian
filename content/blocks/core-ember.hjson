@@ -1,0 +1,5 @@
+type: CoreBlock
+size: 2
+health: 2500
+isFirstTier: true
+unitType: flame
