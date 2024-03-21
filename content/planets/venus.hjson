@@ -108,5 +108,4 @@ itemWhitelist: [
 ]
 #self-explanatory
 enemyBuildSpeedMultiplier: 0.13
-#planet rules/gamerules unlockOnLand were supposed to be here, turns out it doesnt work so check ./scripts/main.js
-ruleSetter: {} #i said that ruleSetter isnt here but ruleSetter isnt supposed to be an object and this is a dummy object so i can turn it into a function
+#defaultAttributes and unlockOnLand were supposed to be here, turns out it doesnt work so check ./scripts/main.js
