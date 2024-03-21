@@ -26,7 +26,7 @@ Events.on(ClientLoadEvent, e => {
     dialog.cont.button("Yes", () => {
         dialog.hide();
         loadContent();
-    });
+    }).row();
     dialog.cont.button("No", () => Core.app.exit());
     dialog.show();
 });
