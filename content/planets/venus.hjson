@@ -2,6 +2,11 @@
 #localizedName: "Venus"
 #this section is commented out since im using bundle
 
+#planet parent or basically what planet the planet orbits
+parent: sun
+#solar system parent
+solarSystem: sun
+
 #planet mesh, [] = MultiMesh, {} = single mesh
 mesh: {
     #mesh type
