@@ -1,8 +1,6 @@
 const venus = Vars.content.planet("venusian-venus");
 
 //venus configs
-//planet default attributes
-venus.defaultAttributes.set(Attributes.heat, 0.8);
 //blocks and items unlocked in tech tree when first playing the planet
 venus.unlockedOnLand.add("core-ember");
 

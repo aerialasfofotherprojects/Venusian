@@ -108,4 +108,4 @@ itemWhitelist: [
 ]
 #self-explanatory
 enemyBuildSpeedMultiplier: 0.13
-#defaultAttributes and unlockOnLand were supposed to be here, turns out it doesnt work so check ./scripts/main.js
+#unlockOnLand were supposed to be here, turns out it doesnt work so check ./scripts/main.js
