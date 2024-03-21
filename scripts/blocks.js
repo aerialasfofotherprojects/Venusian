@@ -1,4 +1,4 @@
-const embercore = new extend(CoreBlock, 'core-ember', {
+const embercore = extend(CoreBlock, 'core-ember', {
     size: 2,
     description: 'Core of the base. Armored. Made with tungsten. Once destroyed, the sector is lost.',
     health: 2500,
@@ -6,7 +6,7 @@ const embercore = new extend(CoreBlock, 'core-ember', {
     unitType: flame,
 });
 
-const thermodrill = new extend(ImpactDrill, 'thermo-drill', {
+const thermodrill = extend(ImpactDrill, 'thermo-drill', {
     //TODO add logic and properties
 });
 
