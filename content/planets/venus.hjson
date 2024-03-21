@@ -2,6 +2,10 @@
 //localizedName: "Venus"
 //this section is commented out since im using bundle
 
+//delete these two, remember brain.
+parent: sun
+solarSystem: sun
+
 //planet mesh, [] = MultiMesh, {} = single mesh
 mesh: {
     //mesh type
