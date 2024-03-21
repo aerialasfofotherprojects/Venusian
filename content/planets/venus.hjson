@@ -22,9 +22,9 @@ mesh: {
     #mesh radius
     radius: 0.8
     #idk, just play with it
-    octaves: 2
+    octaves: 1
     #idk, just play with it
-    persistence: 0.3
+    persistence: 0.21
     #noise scale
     scale: 1
     #idk, just play with it
@@ -40,7 +40,7 @@ cloudMesh: [
         #cloud speed
         speed: 0.15
         #cloud radius
-        radius: 0.14
+        radius: 1
         #how much hexagons the cloud is made of
         divisions: 5
         #color
@@ -62,7 +62,7 @@ cloudMesh: [
         #cloud speed
         speed: 0.6
         #cloud radius
-        radius: 0.15
+        radius: 0.91
         #how much hexagons the cloud is made of
         divisions: 5
         #color
