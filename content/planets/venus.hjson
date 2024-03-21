@@ -46,9 +46,9 @@ cloudMesh: [
         #color
         color: eba768
         #idk but octaves
-        octaves: 3
+        octaves: 5
         #idk too
-        persistence: 2.1
+        persistence: 0.97
         #idk but its called scl
         scl: 1
         #thresh um
@@ -82,6 +82,8 @@ cloudMesh: [
 generator: AsteroidGenerator
 #tells if you can go to the planet anytime
 alwaysUnlocked: true
+#sector size, bigger = more sectors, exponential growth
+sectorSize: 1.1
 #i think "land cloud color"
 landCloudColor: ed6542
 #atmosphere color
