@@ -20,13 +20,15 @@ function loadContent() { //running this func when yes is pressed
     venus.unlockedOnLand.add("core-ember");
 }
 
+loadContent();
+
 Events.on(ClientLoadEvent, e => {
     const dialog = new BaseDialog("Warning! W.I.P. Mod!");
     dialog.cont.add("This mod is in [red]W.I.P.[]! Do you [yellow]wish[] to continue?")
     dialog.cont.button("Yes", () => {
         dialog.hide();
-        loadContent();
+        loadContent(); //re-execute for safety
     }).row();
-    dialog.cont.button("No", () => Core.app.exit());
+    dialog.cont.button("No", () => Core.app.exit()).row();
     dialog.show();
 });
