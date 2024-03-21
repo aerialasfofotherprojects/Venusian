@@ -46,9 +46,9 @@ cloudMesh: [
         #color
         color: eba768
         #idk but octaves
-        octaves: 2
+        octaves: 3
         #idk too
-        persistence: 0.42
+        persistence: 2.1
         #idk but its called scl
         scl: 1
         #thresh um
