@@ -21,7 +21,8 @@ function loadContent() { //running this func when yes is pressed
 }
 
 Events.on(ClientLoadEvent, e => {
-    const dialog = new BaseDialog("This mod is in W.I.P. Do you wish to continue?");
+    const dialog = new BaseDialog("Warning! W.I.P. Mod!");
+    dialog.cont.add("This mod is in [red]W.I.P.[]! Do you [yellow]wish[] to continue?")
     dialog.cont.button("Yes", () => {
         dialog.hide();
         loadContent();
