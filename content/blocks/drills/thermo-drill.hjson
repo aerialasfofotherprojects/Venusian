@@ -7,7 +7,7 @@ requirements: [
     ironoxide/25
 ]
 research: {
-    parent: venusian-core-ember
+    parent: core-ember
     requirements: [
         ironoxide/30
     ]
