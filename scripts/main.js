@@ -3,7 +3,7 @@ Events.on(ClientLoadEvent, e => {
     dialog.cont.add("This mod is in [red]W.I.P.[]! Do you [yellow]wish[] to continue?").row();
     dialog.cont.button("Yes", () => {
         dialog.hide();
-    }).row();
-    dialog.cont.button("No", () => Core.app.exit()).row();
+    });
+    dialog.cont.button("No", () => Core.app.exit());
     dialog.show();
 });
