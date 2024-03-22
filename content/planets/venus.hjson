@@ -104,7 +104,7 @@ orbitTime: 5400
 #rotation time on its axis
 rotationTime: 5832
 #how far planet is from the parent
-orbitSpacing: 3
+orbitSpacing: 1.2
 #total radius of itself and its satellites
 totalRadius: 2.4
 #radius of the planet, 1 = serpulo size
