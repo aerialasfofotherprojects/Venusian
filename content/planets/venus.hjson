@@ -83,7 +83,7 @@ generator: AsteroidGenerator
 #tells if you can go to the planet anytime
 alwaysUnlocked: true
 #sector size, bigger = more sectors, exponential growth
-sectorSize: 1.1
+sectorSize: 1.96
 #i think "land cloud color"
 landCloudColor: ed6542
 #atmosphere color
@@ -107,6 +107,8 @@ rotationTime: 5832
 orbitSpacing: 3
 #total radius of itself and its satellites
 totalRadius: 2.4
+#radius of the planet, 1 = serpulo size
+radius: 0.46
 #light offset
 lightSrcTo: 0.5
 lightDstFrom: 0.2
