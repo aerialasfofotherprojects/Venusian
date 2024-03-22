@@ -1,0 +1,16 @@
+type: GenericCrafter
+requirements: [
+    ironoxide/15
+]
+research: {
+    parent: thermo-drill
+    requirements: [
+        ironoxide/20
+    ]
+}
+outputItems: [
+    iron
+]
+outputLiquids: [
+    oxygen
+]

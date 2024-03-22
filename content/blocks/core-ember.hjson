@@ -1,5 +1,10 @@
 type: CoreBlock
 size: 2
+category: effect
 health: 2500
+requirements: [
+    iron/1000
+    tungsten/500
+]
 isFirstTier: true
 unitType: venusian-flame
