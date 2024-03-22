@@ -9,8 +9,8 @@ research: {
     ]
 }
 outputItems: [
-    iron
+    iron/1
 ]
 outputLiquids: [
-    oxygen
+    oxygen/0.8
 ]
