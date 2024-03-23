@@ -1,3 +1,4 @@
 type: flying
 flying: true
 envDisabled: 0
+hitSize: 24

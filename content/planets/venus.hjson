@@ -124,7 +124,8 @@ defaultCore: core-ember
 iconColor: ff6347
 #available items when on planet, use hiddenItems if you wanna hide items but the rest will be available
 itemWhitelist: [
-    tungsten, silicon
+    tungsten
+    silicon
 ]
 #self-explanatory
 enemyBuildSpeedMultiplier: 0.13
