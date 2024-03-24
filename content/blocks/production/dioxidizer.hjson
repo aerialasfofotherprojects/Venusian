@@ -13,9 +13,7 @@ research: {
 }
 recipes: [
     {
-        input: [
-            ironoxide/1
-        ]
+        input: ironoxide/1
         output: {
             items: [
                 iron/0.8
@@ -24,6 +22,7 @@ recipes: [
                 oxygen/0.2
             ]
         }
+        craftTime: 60
     }
     {
         input: [
@@ -37,5 +36,6 @@ recipes: [
                 oxygen/0.2
             ]
         }
+        craftTime: 80
     }
 ]
