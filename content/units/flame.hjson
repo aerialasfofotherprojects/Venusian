@@ -1,4 +1,68 @@
 type: flying
 flying: true
+health: 1000
+hittable: false
+targetable: false
+speed: 5.5
+accel: 0.3
+drag: 0.2
+engineSize: 0
+outlines: false
+drawCell: false
+buildSpeed: 3
+drawBuildBeam: true
+buildRange: 120
+faceTarget: true
 envDisabled: 0
-hitSize: 24
+hitSize: 10
+parts: [
+    {
+        type: RegionPart
+        layer: 1
+        outline: false
+    }
+    {
+        type: RegionPart
+        suffix: "-glass-glow"
+        outline: false
+        blending: additive
+        layer: 2
+        color: c2f4ff
+    }
+    {
+        type: RegionPart
+        suffix: "-gyaaaattt"
+        outline: false
+        blending: additive
+        layer: 6966969696969969
+        color: ffffff
+    }
+]
+weapons: [
+    {
+        x: 1
+        y: 0
+        name: rocket-launcher-flame
+        shootCone: 30
+        mirror: false
+        shootSound: missileLaunch
+        recoil: 1
+        bullet: {
+            type: MissileBulletType
+            speed: 4
+            lifetime: 20
+            maxRange: 60
+            rotateSpeed: 0.25
+            trailLength: 60
+            missileAccelTime: 55
+            lowAltitude: true
+            loopSound: missileTrail
+            loopSoundVolume: 0.2
+            deathSound: largeExplosion
+            targetAir: true
+            targetUnderBlocks: true
+            fogRadius: 6
+            health: 50
+        }
+    }
+]
