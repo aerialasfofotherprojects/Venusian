@@ -1,4 +1,7 @@
-type: GenericCrafter
+type: multicraft.MultiCrafter
+size: 3
+health: 135
+category: crafting
 requirements: [
     ironoxide/15
 ]
@@ -8,9 +11,31 @@ research: {
         ironoxide/20
     ]
 }
-outputItems: [
-    iron/1
-]
-outputLiquids: [
-    oxygen/0.8
+recipes: [
+    {
+        input: [
+            ironoxide/1
+        ]
+        output: {
+            items: [
+                iron/0.8
+            ]
+            fluids: [
+                oxygen/0.2
+            ]
+        }
+    }
+    {
+        input: [
+            tungstenoxide/1
+        ]
+        output: {
+            items: [
+                tungsten/0.8
+            ]
+            fluids: [
+                oxygen/0.2
+            ]
+        }
+    }
 ]

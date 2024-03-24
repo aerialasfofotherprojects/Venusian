@@ -1,5 +1,6 @@
 type: BurstDrill
 size: 2
+health: 100
 arrows: 0
 tier: 1
 drillTime: 35
@@ -15,6 +16,6 @@ research: {
 category: production
 drawSpinSprite: false
 drawRim: true
-updateEffect: fire
+updateEffect: smoke
 updateEffectChance: 1
 drillEffect: mineHuge

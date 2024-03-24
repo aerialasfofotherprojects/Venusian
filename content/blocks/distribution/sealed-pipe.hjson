@@ -1,0 +1,12 @@
+type: Conveyor
+size: 1
+health: 80
+category: distribution
+speed: 3
+displayedSpeed: 4.5
+research: {
+    parent: core-ember
+    requirements: [
+        iron-oxide/1
+    ]
+}
