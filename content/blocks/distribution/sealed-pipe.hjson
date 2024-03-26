@@ -7,6 +7,6 @@ displayedSpeed: 4.5
 research: {
     parent: core-ember
     requirements: [
-        iron-oxide/1
+        ironoxide/1
     ]
 }
