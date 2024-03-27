@@ -35,7 +35,7 @@ mesh: [
         #fake "atmosphere", dont make this
         type: NoiseMesh
         seed: 0
-        divisions: 15
+        divisions: 8
         color1: ffc4ab
         color2: a67f6f
         radius: 1.4
