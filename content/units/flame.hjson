@@ -40,18 +40,22 @@ parts: [
 ]
 weapons: [
     {
-        x: 1
+        x: 0
         y: 0
         name: rocket-launcher-flame
         shootCone: 30
         mirror: false
         shootSound: missileLaunch
+        shootEffect: shootBig
         recoil: 1
+        shoot: {
+            damage: 15
+            shoot: 1
+        }
         bullet: {
             #i hate making bullets, womp womp if this code sucks
             type: MissileUnitType
             sprite: rocket-launcher-flame-bullet
-            damage: 15
             speed: 4
             lifetime: 20
             maxRange: 60
