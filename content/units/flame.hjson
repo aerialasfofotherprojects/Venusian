@@ -54,22 +54,10 @@ weapons: [
         }
         bullet: {
             #i hate making bullets, womp womp if this code sucks
-            type: MissileUnitType
+            type: MissileBulletType
             sprite: rocket-launcher-flame-bullet
-            speed: 4
-            lifetime: 20
-            maxRange: 60
-            rotateSpeed: 0.25
-            trailLength: 60
-            missileAccelTime: 55
-            lowAltitude: false
-            loopSound: missileTrail
-            loopSoundVolume: 0.2
-            deathSound: largeExplosion
-            targetAir: true
-            targetUnderBlocks: true
-            fogRadius: 6
-            health: 50
+            width: 2.5
+            height: 2.5
         }
     }
 ]
