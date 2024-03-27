@@ -29,14 +29,6 @@ parts: [
         layer: 2
         color: c2f4ff
     }
-    {
-        type: RegionPart
-        suffix: "-gyaaaattt"
-        outline: false
-        blending: additive
-        layer: 6966969696969969
-        color: ffffff
-    }
 ]
 weapons: [
     {
