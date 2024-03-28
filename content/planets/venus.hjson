@@ -21,9 +21,9 @@ mesh: [
         #2nd color used
         color2: f4c646
         #mesh radius
-        radius: 0.8
+        radius: 0.26
         #idk, just play with it
-        octaves: 3
+        octaves: 1
         #idk, just play with it
         persistence: 0.8
         #noise scale
