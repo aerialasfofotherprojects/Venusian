@@ -21,7 +21,7 @@ mesh: [
         #2nd color used
         color2: f4c646
         #mesh radius
-        radius: 0.3
+        radius: 0.41
         #idk, just play with it
         octaves: 1
         #idk, just play with it
