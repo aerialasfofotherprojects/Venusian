@@ -13,27 +13,27 @@ research: {
 }
 recipes: [
     {
-        input: ironoxide/1
+        input: venusian-ironoxide/5
         output: {
             items: [
-                iron/0.8
+                venusian-iron/4
             ]
             fluids: [
-                oxygen/0.2
+                venusian-oxygen/1
             ]
         }
         craftTime: 60
     }
     {
         input: [
-            tungstenoxide/1
+            venusian-tungstenoxide/5
         ]
         output: {
             items: [
-                tungsten/0.8
+                tungsten/4
             ]
             fluids: [
-                oxygen/0.2
+                venusian-oxygen/1
             ]
         }
         craftTime: 80
