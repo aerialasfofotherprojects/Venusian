@@ -23,7 +23,7 @@ mesh: [
         #mesh radius
         radius: 0.8
         #idk, just play with it
-        octaves: 0.2
+        octaves: 0.5
         #idk, just play with it
         persistence: 0.21
         #noise scale
@@ -39,7 +39,7 @@ mesh: [
         color1: ffc4ab
         color2: a67f6f
         radius: 1.4
-        octaves: 0
+        octaves: 0.1
         persistence: 0
         scale: 0.5
         mag: 0
