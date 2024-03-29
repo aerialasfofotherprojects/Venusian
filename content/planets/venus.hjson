@@ -39,13 +39,13 @@ cloudMesh: [
         type: HexSkyMesh
         seed: 1
         speed: 0.01
-        radius: 0.95
+        radius: 0.6
         divisions: 8
         color: edc095
         octaves: 1
         persistence: 0
         scl: 0
-        thresh: 0
+        thresh: 1
     }
     {
         #sky mesh type
