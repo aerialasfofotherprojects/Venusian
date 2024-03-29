@@ -39,9 +39,9 @@ mesh: [
         #divisions, how much hexagons used for the mesh
         divisions: 8
         #1st color used
-        color1: b26010
+        color1: edc095
         #2nd color used
-        color2: f4c646
+        color2: "8c4b23"
         #mesh radius
         radius: 0.42
         #idk, just play with it
