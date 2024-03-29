@@ -23,7 +23,7 @@ mesh: [
         #mesh radius
         radius: 0.41
         #idk, just play with it
-        octaves: 1
+        octaves: 0
         #idk, just play with it
         persistence: 0.8
         #noise scale
