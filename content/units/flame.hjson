@@ -40,13 +40,11 @@ weapons: [
         shootSound: missileLaunch
         shootEffect: shootBig
         recoil: 1
-        shoot: {
-            damage: 15
-            shoot: 1
-        }
         bullet: {
             #i hate making bullets, womp womp if this code sucks
             type: MissileBulletType
+            damage: 15
+            reload: 30
             sprite: rocket-launcher-flame-bullet
             width: 2.5
             height: 2.5
