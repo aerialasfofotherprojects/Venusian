@@ -31,28 +31,6 @@ mesh: [
         #idk, just play with it
         mag: 1.5
     }
-    {
-        #mesh type
-        type: NoiseMesh
-        #seed used to make variations, diff seed = diff variant
-        seed: 5
-        #divisions, how much hexagons used for the mesh
-        divisions: 8
-        #1st color used
-        color1: edc095
-        #2nd color used
-        color2: "8c4b23"
-        #mesh radius
-        radius: 0.5
-        #idk, just play with it
-        octaves: 1
-        #idk, just play with it
-        persistence: 0.8
-        #noise scale
-        scale: 0
-        #idk, just play with it
-        mag: 1.5
-    }
 ]
 #cloud mesh, [] = MultiMesh, {} = single mesh
 cloudMesh: [
