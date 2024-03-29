@@ -35,25 +35,16 @@ mesh: [
 #cloud mesh, [] = MultiMesh, {} = single mesh
 cloudMesh: [
     {
-        #sky mesh type
+        #"atmosphere" mesh, do not make
         type: HexSkyMesh
-        #seed used to make variations, diff seed = diff variant
         seed: 1
-        #cloud speed
         speed: 0.01
-        #cloud radius
-        radius: 0.6
-        #how much hexagons the cloud is made of
+        radius: 1
         divisions: 8
-        #color
         color: edc095
-        #idk but octaves
         octaves: 1
-        #idk too
         persistence: 0
-        #idk but its called scl
         scl: 0
-        #thresh um
         thresh: 0
     }
     {
