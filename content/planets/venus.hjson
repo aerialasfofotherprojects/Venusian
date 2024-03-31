@@ -39,7 +39,7 @@ cloudMesh: [
         type: HexSkyMesh
         seed: 1
         speed: 0.01
-        radius: 0.6
+        radius: 0.5
         divisions: 8
         color: edc095
         octaves: 1
@@ -110,8 +110,8 @@ defaultEnv: 17
 #starting sector, you can use any sector if its a custom map but remember to use this number when adding the custom map
 startSector: 0
 #atmosphere offset
-atmosphereRadIn: 0.73
-atmosphereRadOut: 1
+atmosphereRadIn: 0
+atmosphereRadOut: 0.5
 #is planet tidal locked or not
 tidalLock: false
 #orbit time
