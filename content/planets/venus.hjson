@@ -110,8 +110,8 @@ defaultEnv: 17
 #starting sector, you can use any sector if its a custom map but remember to use this number when adding the custom map
 startSector: 0
 #atmosphere offset
-atmosphereRadIn: 0.1
-atmosphereRadOut: 0.5
+atmosphereRadIn: 0
+atmosphereRadOut: 0.4
 #is planet tidal locked or not
 tidalLock: false
 #orbit time
