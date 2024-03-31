@@ -94,7 +94,7 @@ cloudMesh: [
 ]
 #planet generator, AsteroidGenerator properties are editable by using a object
 #also hjson is limited to AsteroidGenerator and you cant change the generator
-generator: AsteroidGenerator
+generator: PlanetGenerator
 #tells if you can go to the planet anytime
 alwaysUnlocked: true
 #sector size, bigger = more sectors, exponential growth
@@ -110,8 +110,8 @@ defaultEnv: 17
 #starting sector, you can use any sector if its a custom map but remember to use this number when adding the custom map
 startSector: 0
 #atmosphere offset
-atmosphereRadIn: 0
-atmosphereRadOut: 0.4
+atmosphereRadIn: 1
+atmosphereRadOut: 0.5
 #is planet tidal locked or not
 tidalLock: false
 #orbit time
@@ -132,7 +132,7 @@ lightDstFrom: 0.2
 #if game saves return to normal when you lose
 clearSectorOnLose: true
 #allow launch to numbered sectors
-allowLaunchToNumbered: false
+allowLaunchToNumbered: true
 #idk
 allowLighting: false #idk what this does
 #planet's default core, example: serpulo having core-shard
