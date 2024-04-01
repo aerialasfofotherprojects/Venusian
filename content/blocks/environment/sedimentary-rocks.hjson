@@ -1,0 +1,3 @@
+type: OreBlock
+itemDrop: iron-oxide
+variants: 3
