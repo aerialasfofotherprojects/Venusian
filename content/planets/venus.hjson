@@ -27,7 +27,7 @@ mesh: [
         #idk, just play with it
         persistence: 0.8
         #noise scale
-        scale: 3
+        scale: 1
         #idk, just play with it
         mag: 1.5
     }
