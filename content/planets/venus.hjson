@@ -39,6 +39,19 @@ cloudMesh: [
         type: HexSkyMesh
         seed: 1
         speed: 0.01
+        radius: 0.439
+        divisions: 8
+        color: ffffff
+        octaves: 1
+        persistence: 0
+        scl: 0
+        thresh: 1
+    }
+    {
+        #"atmosphere" mesh, do not make
+        type: HexSkyMesh
+        seed: 1
+        speed: 0.01
         radius: 0.44
         divisions: 8
         color: edc095
