@@ -3,6 +3,7 @@ flying: true
 health: 1000
 hittable: false
 targetable: false
+mineTier: 1
 speed: 5.5
 accel: 0.3
 drag: 0.2
