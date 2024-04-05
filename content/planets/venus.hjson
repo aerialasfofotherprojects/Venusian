@@ -27,7 +27,7 @@ mesh: [
         #idk, just play with it
         persistence: 0.8
         #noise scale
-        scale: 1
+        scale: 1.5
         #idk, just play with it
         mag: 1.5
     }
@@ -124,7 +124,7 @@ defaultEnv: 17
 startSector: 0
 #atmosphere offset
 atmosphereRadIn: 0
-atmosphereRadOut: 0.3
+atmosphereRadOut: 0.32
 #is planet tidal locked or not
 tidalLock: false
 #orbit time
