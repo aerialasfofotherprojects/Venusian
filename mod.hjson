@@ -3,11 +3,16 @@ displayName: "Venusian"
 author: aerialasf
 description: 
     '''
+    !Warning!
+    Uses dependencies "multi-crafter"
+    
     Another planet mod.
     Adding Venus to the solar system.
     
     This is another project for no reason.
     I'm developing this project as a excercise for my knowledge and know more.
+    
+    MOD STILL IN DEMO
     '''
 version: "69.9.969"
 minGameVersion: "146"
