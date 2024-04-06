@@ -27,7 +27,7 @@ mesh: [
         #idk, just play with it
         persistence: 0.8
         #noise scale
-        scale: 2
+        scale: 2.5
         #idk, just play with it
         mag: 1.5
     }
@@ -145,7 +145,7 @@ lightDstFrom: 0.2
 #if game saves return to normal when you lose
 clearSectorOnLose: true
 #allow launch to numbered sectors
-allowLaunchToNumbered: true
+allowLaunchToNumbered: false
 #idk
 allowLighting: false #idk what this does
 #planet's default core, example: serpulo having core-shard
