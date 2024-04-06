@@ -4,6 +4,7 @@ health: 1000
 hittable: false
 targetable: false
 mineTier: 1
+mineSpeed: 3
 speed: 5.5
 accel: 0.3
 drag: 0.2
@@ -11,7 +12,7 @@ engineSize: 0
 outlines: false
 drawCell: false
 buildSpeed: 3
-drawBuildBeam: true
+drawBuildBeam: false
 buildRange: 120
 faceTarget: true
 envDisabled: 0
