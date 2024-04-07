@@ -1,27 +1,34 @@
-type: flying
+type: payload
 flying: true
 health: 1000
+armor: 10
+hitSize: 10
+
 controller: BuilderAI
 isEnemy: false
-hittable: false
-targetable: false
-mineTier: 1
-mineSpeed: 5
 mineWalls: true
 mineFloor: true
-itemCapacity: 50
-speed: 5.5
-accel: 0.3
-drag: 0.2
-engineSize: 0
-outlines: false
-drawCell: false
-buildSpeed: 3
-drawBuildBeam: false
-buildRange: 120
-faceTarget: true
-envDisabled: 0
-hitSize: 10
+buildSpeed: 1.7
+itemCapacity: 45
+
+speed: 4.5
+accel: 0.5
+drag: 0.15
+mineSpeed: 5
+mineTier: 1
+rotateSpeed: 7
+
+crashDamageMultiplier: 0
+hittable: false
+targetable: false
+fogRadius: 5
+coreUnitDock: true
+outlineColor: 2d2f39
+
+payloadCapacity: 50
+pickupUnits: false
+vulnerableWithPayloads: true
+
 parts: [
     {
         type: RegionPart
@@ -37,6 +44,7 @@ parts: [
         color: c2f4ff
     }
 ]
+
 weapons: [
     {
         x: 0
@@ -56,5 +64,13 @@ weapons: [
             width: 2.5
             height: 2.5
         }
+    }
+]
+engines: [
+    {
+        x: 0
+        y: -3
+        radius: 0.8
+        rotation: 0
     }
 ]
