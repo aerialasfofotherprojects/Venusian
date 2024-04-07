@@ -1,6 +1,7 @@
 type: multicraft.MultiCrafter
 size: 3
 health: 135
+envEnabled: 17
 category: crafting
 requirements: [
     ironoxide/15

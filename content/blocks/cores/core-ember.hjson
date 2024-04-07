@@ -1,5 +1,6 @@
 type: CoreBlock
 size: 2
+envEnabled: 17
 category: effect
 health: 2500
 requirements: [

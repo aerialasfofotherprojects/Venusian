@@ -107,7 +107,7 @@ cloudMesh: [
 ]
 #planet generator, AsteroidGenerator properties are editable by using a object
 #also hjson is limited to AsteroidGenerator and you cant change the generator
-generator: PlanetGenerator
+generator: ErekirPlanetGenerator
 #tells if you can go to the planet anytime
 alwaysUnlocked: true
 #sector size, bigger = more sectors, exponential growth
@@ -154,6 +154,14 @@ defaultCore: core-ember
 iconColor: ff6347
 #available items when on planet, use hiddenItems if you wanna hide items but the rest will be available
 itemWhitelist: [
+    #rusted modded items
+    ironoxide
+    tungstenoxide
+    
+    #non-rusted modded items
+    iron
+    
+    #vanilla items
     tungsten
     silicon
 ]

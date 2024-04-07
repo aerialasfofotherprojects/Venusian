@@ -1,5 +1,6 @@
 type: BurstDrill
 size: 2
+envEnabled: 17
 health: 100
 arrows: 0
 tier: 1

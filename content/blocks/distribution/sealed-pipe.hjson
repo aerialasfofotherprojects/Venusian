@@ -1,6 +1,7 @@
 type: Conveyor
 size: 1
 health: 80
+envEnabled: 17
 category: distribution
 speed: 3
 displayedSpeed: 4.5
