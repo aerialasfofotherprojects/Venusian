@@ -1,4 +1,4 @@
-type: payload
+type: flying
 flying: true
 health: 1000
 armor: 10
