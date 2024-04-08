@@ -16,7 +16,7 @@ drawBuildBeam: false
 buildRange: 120
 faceTarget: true
 envDisabled: 0
-hitSize: 10
+hitSize: 18
 parts: [
     {
         type: RegionPart
@@ -34,7 +34,7 @@ parts: [
 ]
 weapons: [
     {
-        x: 3
+        x: -3
         y: 0
         name: rocket-launcher-flame
         shootCone: 30

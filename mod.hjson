@@ -1,14 +1,18 @@
 name: "venusian"
 displayName: "Venusian"
 author: aerialasf
-description: "
+description: '''
 !Warning!
-Uses dependencies multi-crafter
+Uses dependencies "multi-crafter"
+
 Another planet mod.
 Adding Venus to the solar system.  
 This is another project for no reason.
+
 I'm developing this project as a excercise for my knowledge and know more.
-MOD STILL IN DEMO"
+
+MOD STILL IN DEMO
+'''
 version: "1"
 minGameVersion: "146"
 dependencies: [
