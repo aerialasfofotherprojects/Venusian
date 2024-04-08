@@ -34,7 +34,7 @@ parts: [
 ]
 weapons: [
     {
-        x: 0
+        x: 3
         y: 0
         name: rocket-launcher-flame
         shootCone: 30
