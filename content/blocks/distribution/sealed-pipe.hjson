@@ -11,4 +11,6 @@ research: {
         ironoxide/1
     ]
 }
-requirements: ironoxide/1
+requirements: [
+    ironoxide/1
+]
