@@ -1,16 +1,15 @@
-type: Conveyor
+type: Duct
 size: 1
-health: 80
 envEnabled: 17
 category: distribution
-speed: 3
-displayedSpeed: 4.5
 research: {
     parent: core-ember
     requirements: [
         ironoxide/1
     ]
 }
+speed: 10
+health: 80
 requirements: [
     ironoxide/1
 ]
