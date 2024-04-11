@@ -4,7 +4,7 @@ envEnabled: 17
 health: 100
 arrows: 0
 tier: 1
-drillTime: 35
+drillTime: 60
 requirements: [
     ironoxide/25
 ]
