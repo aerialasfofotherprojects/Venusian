@@ -16,7 +16,6 @@ research: {
 isFirstTier: true
 unitType: flame
 itemCapacity: 1500
-thrusterLength: 8.5
 armor: 8
 alwaysUnlocked: true
 requiresCoreZone: true
