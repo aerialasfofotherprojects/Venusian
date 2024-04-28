@@ -6,7 +6,7 @@ arrows: 2
 arrowSpacing: 2
 arrowOffset: -2
 tier: 1
-drillTime: 200
+drillTime: 140
 requirements: [
     ironoxide/25
 ]
