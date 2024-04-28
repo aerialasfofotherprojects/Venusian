@@ -2,9 +2,11 @@ type: BurstDrill
 size: 2
 envEnabled: 17
 health: 100
-arrows: 0
+arrows: 2
+arrowSpacing: 2
+arrowOffset: -2
 tier: 1
-drillTime: 60
+drillTime: 200
 requirements: [
     ironoxide/25
 ]
