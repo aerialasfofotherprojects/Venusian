@@ -2,7 +2,7 @@ type: BurstDrill
 size: 2
 envEnabled: 17
 health: 100
-arrows: 3
+arrows: 2
 tier: 1
 drillTime: 60
 requirements: [
