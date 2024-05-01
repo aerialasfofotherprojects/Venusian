@@ -3,6 +3,7 @@ size: 3
 health: 135
 envEnabled: 17
 category: crafting
+dumpExtraLiquid: true
 requirements: [
     ironoxide/15
 ]

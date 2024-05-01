@@ -1,4 +1,4 @@
-type: Duct
+type: Conveyor
 size: 1
 envEnabled: 17
 category: distribution
@@ -9,6 +9,7 @@ research: {
     ]
 }
 speed: 10
+displayedSpeed: 10
 health: 80
 requirements: [
     ironoxide/1
