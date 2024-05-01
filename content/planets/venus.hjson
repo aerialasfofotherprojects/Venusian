@@ -27,7 +27,7 @@ mesh: [
         #idk, just play with it
         persistence: 0.8
         #noise scale
-        scale: 2.5
+        scale: 3
         #idk, just play with it
         mag: 1.5
     }
@@ -123,8 +123,8 @@ defaultEnv: 17
 #starting sector, you can use any sector if its a custom map but remember to use this number when adding the custom map
 startSector: 0
 #atmosphere offset
-atmosphereRadIn: 0
-atmosphereRadOut: 0.32
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.3
 #is planet tidal locked or not
 tidalLock: false
 #orbit time
@@ -138,7 +138,7 @@ totalRadius: 2.4
 #minimum zoom when zooming on the planet
 minZoom: 1
 #radius of the planet, 1 = serpulo size
-radius: 0.46
+# radius: 0.46
 #light offset
 lightSrcTo: 0.5
 lightDstFrom: 0.2
