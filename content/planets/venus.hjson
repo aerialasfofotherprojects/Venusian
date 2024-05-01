@@ -21,7 +21,7 @@ mesh: [
         #2nd color used
         color2: f4c646
         #mesh radius
-        radius: 0.41
+        radius: 0.96
         #idk, just play with it
         octaves: 1
         #idk, just play with it
@@ -39,70 +39,13 @@ cloudMesh: [
         type: HexSkyMesh
         seed: 1
         speed: 0.01
-        radius: 0.439
+        radius: 0.420
         divisions: 8
         color: ffffff
         octaves: 1
         persistence: 0
         scl: 0
         thresh: 1
-    }
-    {
-        #"atmosphere" mesh, do not make
-        type: HexSkyMesh
-        seed: 1
-        speed: 0.01
-        radius: 0.44
-        divisions: 8
-        color: edc095
-        octaves: 1
-        persistence: 0
-        scl: 0
-        thresh: 1
-    }
-    {
-        #sky mesh type
-        type: HexSkyMesh
-        #seed used to make variations, diff seed = diff variant
-        seed: 3
-        #cloud speed
-        speed: 0.6
-        #cloud radius
-        radius: 0.43
-        #how much hexagons the cloud is made of
-        divisions: 5
-        #color
-        color: eea293
-        #idk but octaves
-        octaves: 2
-        #idk too
-        persistence: 0.42
-        #idk but its called scl
-        scl: 1.2
-        #thresh um
-        thresh: 0.45
-    }
-    {
-        #sky mesh type
-        type: HexSkyMesh
-        #seed used to make variations, diff seed = diff variant
-        seed: 2
-        #cloud speed
-        speed: 0.15
-        #cloud radius
-        radius: 0.42
-        #how much hexagons the cloud is made of
-        divisions: 5
-        #color
-        color: eba768
-        #idk but octaves
-        octaves: 5
-        #idk too
-        persistence: 0.97
-        #idk but its called scl
-        scl: 1
-        #thresh um
-        thresh: 0.43
     }
 ]
 #planet generator, AsteroidGenerator properties are editable by using a object
