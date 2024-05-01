@@ -21,7 +21,7 @@ mesh: [
         #2nd color used
         color2: f4c646
         #mesh radius
-        radius: 0.94
+        radius: 0.9
         #idk, just play with it
         octaves: 1
         #idk, just play with it
@@ -41,7 +41,7 @@ cloudMesh: [
         speed: 0.01
         radius: 0.420
         divisions: 8
-        color: d8bfd8
+        color: ff9f21
         octaves: 1
         persistence: 0
         scl: 0
