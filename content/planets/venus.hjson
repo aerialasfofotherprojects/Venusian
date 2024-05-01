@@ -138,7 +138,7 @@ totalRadius: 2.4
 #minimum zoom when zooming on the planet
 minZoom: 1
 #radius of the planet, 1 = serpulo size
-# radius: 0.46
+radius: 1
 #light offset
 lightSrcTo: 0.5
 lightDstFrom: 0.2
