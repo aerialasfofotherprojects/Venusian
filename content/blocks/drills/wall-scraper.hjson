@@ -1,0 +1,15 @@
+type: WallCrafter
+drillTime: 110
+size: 2
+attribute: sand
+output: basalt
+fogRadius: 2
+research: {
+   parent: thermo-drill
+   requrements: [
+      tungstenoxide/10
+      ironoxide/15
+   ]
+}
+ambientSound: drill
+ambientSoundVolume: 0.04

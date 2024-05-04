@@ -22,3 +22,5 @@ drawRim: true
 updateEffect: smoke
 updateEffectChance: 1
 drillEffect: mineHuge
+ambientSound: drill
+ambientSoundVolume: 0.1
